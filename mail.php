@@ -29,15 +29,18 @@ try {
 
   // Настройки почты отправителя
   $mail->Host       = 'smtp.yandex.com'; // SMTP сервера вашей почты
-  $mail->Username   = 'ivan-vasin@yandex.ru'; // Логин на почте
-  $mail->Password   = 'paluaxbjpumfyzre'; // Пароль на почте
+  // $mail->Username   = 'ivan-vasin@yandex.ru'; // Логин на почте
+  $mail->Username   = 'shki.sovetsk@yandex.ru'; // Логин на почте
+  // $mail->Password   = 'paluaxbjpumfyzre'; // Пароль на почте ivan-vasin
+  $mail->Password   = 'gpnfqemfmhnjbduu'; // Пароль на почте shki.sovetsk
+  
   $mail->SMTPSecure = 'ssl';
   $mail->Port       = 465;
 
-  $mail->setFrom('ivan-vasin@yandex.ru', 'Заявка с сайта'); // Адрес самой почты и имя отправителя
+  $mail->setFrom('shki.sovetsk@yandex.ru', 'Заявка с сайта'); // Адрес самой почты и имя отправителя
 
   // Получатель письма
-  $mail->addAddress('ivan-vasin@yandex.ru');
+  $mail->addAddress('shki.sovetsk@yandex.ru');
 
   // Отправка сообщения
   $mail->isHTML(true);

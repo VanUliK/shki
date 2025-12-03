@@ -187,7 +187,7 @@ strong {
 }
 
 /* Адаптивная вёрстка для мобильных устройств */
-@media (max-width: 768px) {
+@media (max-width: 868px) {
   .mission,
   .program {
     padding: 20px 10px;
@@ -197,6 +197,31 @@ strong {
   .mission h2,
   .program h2 {
     font-size: 2rem;
+  }
+
+  header,
+  .nav-list {
+    flex-direction: column;
+  }
+
+  .main-section {
+    flex-direction: column;
+    align-items: center;
+  }
+  .school-image {
+    margin-right: 0;
+    width: 90%;
+    margin-bottom: 20px;
+  }
+
+  .text-block {
+    border-radius: 0px;
+    width: 100%;
+  }
+
+  .program-directions {
+    padding: 20px 10px;
+    margin: 10px 0;
   }
 }
 
