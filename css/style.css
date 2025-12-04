@@ -21,22 +21,22 @@ body {
   font-family: Arial, Verdana, sans-serif;
 }
 
-.container{
+.container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 50px 15px;
 }
 
-.form{
+.form {
   max-width: 600px;
 }
 
-.form__input-box:not(:last-child){
+.form__input-box:not(:last-child) {
   margin-bottom: 20px;
 }
 
-.form__input-inp{
-  border: 1px solid rgb(61, 61, 255);
+.form__input-inp {
+  border: 1px solid #2f2f2f;
   border-radius: 0;
   outline: none;
   width: 100%;
@@ -44,28 +44,28 @@ body {
 }
 
 .form__input-inp:focus {
-  outline: rgb(61, 61, 255) 2px solid;
+  outline: rgb(61, 255, 100) 2px solid;
 }
 
 .form__btn {
-  background-color: rgb(61, 61, 255);
+  background-color: black;
   padding: 14px 30px;
-  border-radius: 0;
   outline: none;
   border: none;
   color: white;
   cursor: pointer;
-  transition: background-color .3s;
+  transition: background-color 0.3s;
+  border-radius: 10px;
 }
 
-.form__btn:hover{
-  background-color: rgb(91, 91, 255);
+.form__btn:hover {
+  background-color: rgb(107, 107, 107);
 }
 
-.form__btn:active{
-  background-color: rgb(91, 91, 255);
+.form__btn:active {
+  background-color: rgb(78, 78, 78);
 }
 
-.form__btn:focus{
-  outline: rgb(61, 61, 255) 2px solid;
+.form__btn:focus {
+  outline: rgb(79, 79, 79) 2px solid;
 }

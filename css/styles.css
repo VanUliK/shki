@@ -8,9 +8,6 @@
   outline: 0;
 }
 
-html,
-body {
-}
 /* Общие стили */
 html,
 body {
@@ -109,9 +106,11 @@ h1 {
 
 .directions-list {
   margin-left: 20px;
+  margin-bottom: 20px;
 }
 
-.apply-btn {
+/* Первый вариант */
+/* .apply-btn {
   background-color: black;
   color: white;
   padding: 10px 20px;
@@ -124,7 +123,7 @@ h1 {
 
 .apply-btn:hover {
   background-color: #555;
-}
+} */
 
 /* Стили для призыва к действию */
 .call-to-action {
@@ -365,9 +364,9 @@ strong {
 }
 
 /* Блок с картой и контактами */
-.contact-map {
+/* .contact-map {
   padding: 50px 0;
-}
+} */
 
 .contact-info {
   margin-bottom: 30px;
@@ -398,8 +397,7 @@ strong {
 }
 
 /* Футер */
-footer {
-}
+
 .footer {
   padding: 15px 0;
   background-color: #000;
@@ -432,9 +430,6 @@ footer {
 .map-container {
   filter: grayscale(60%);
 }
-
-
-
 
 .wrapper {
   display: flex;
